@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+  --fontColor:#d8dee9;
+  --fredokaFont: 'Fredoka One', cursive;
+}
+
+body {
+  background-color: #81A1C1;
+  margin: 0;
+  text-align: center;
+}
+ 
+h1 {
+  color: var(--fontColor);
+  font-family: var(--fredokaFont);
+}
+
+.ui {
+  height: 30px;
+  border-radius: 8px;
+  position: relative;
+  background-color: #5E81AC;
+  font-size: 16px;
+  color: var(--fontColor);
+  font-family: var(--fredokaFont);
+  border: 0;
+  text-align: center;
+  transition: background-color 0.2s ease-out;
+}
+
+button.ui:hover {
+  background-color: #3A4E70;
+}
+
+input.ui:focus {
+  outline:0;
+}
